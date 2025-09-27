@@ -3,7 +3,9 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "ubuntu"
+      BOOT: "https://netactuate.dl.sourceforge.net/project/blissos-x86/Official/BlissOS16/Gapps/Generic/Bliss-v16.9.7-x86_64-OFFICIAL-gapps-20241011.iso?viasf=1"
+      RAM_SIZE: "12G"
+      CPU_CORES: "4"
     devices:
       - /dev/kvm
       - /dev/net/tun
