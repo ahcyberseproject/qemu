@@ -3,7 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "https://download.fydeos.io/v20.0/FydeOS-VMware-v20.0-Preview1-io.ova"
+      BOOT: "https://download.fydeos.io/v19.0/FydeOS_for_PC_v19.0-io-stable.img.xz"
       RAM_SIZE: "12G"
       CPU_CORES: "4"
     devices:
